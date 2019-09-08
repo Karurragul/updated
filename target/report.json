@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Generate an customer ID",
+        "description": "",
+        "id": "add-customer;generate-an-customer-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 887314,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User should launch browser",
+            "match": {
+              "location": "Add.user_should_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9440,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click add customer link",
+            "match": {
+              "location": "Add.user_click_add_customer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User provide valid de",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "gmail",
+                  "address",
+                  "mobile"
+                ]
+              },
+              {
+                "cells": [
+                  "arvi",
+                  "babu",
+                  "test@gmail.com",
+                  "bangalore",
+                  "22222222"
+                ]
+              },
+              {
+                "cells": [
+                  "david",
+                  "raj",
+                  "poi@gmail.com",
+                  "mumbai",
+                  "33333333"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7929,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "To verify the customer id is displayed",
+            "match": {
+              "location": "Add.to_verify_the_customer_id_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Add Customer",
+    "description": "  I want to use this template for my feature file",
+    "id": "add-customer",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/twodmap.feature",
+    "tags": []
+  }
+]
