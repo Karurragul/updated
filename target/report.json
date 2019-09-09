@@ -1,33 +1,106 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 5,
+        "before": [
+          {
+            "result": {
+              "duration": 1111976,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.taggedhook()"
+            }
+          },
+          {
+            "result": {
+              "duration": 80425,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.taggedhook1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 234478,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.taggedhook3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9531376230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.user_should_launch_browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 108743,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.taggedhook2()"
+            }
+          }
+        ],
+        "line": 6,
         "name": "Generate an customer ID",
         "description": "",
         "id": "add-customer;generate-an-customer-id",
+        "after": [
+          {
+            "result": {
+              "duration": 974697539,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          },
+          {
+            "result": {
+              "duration": 257888,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.taggedhook4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 144991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.taggedhook41()"
+            }
+          },
+          {
+            "result": {
+              "duration": 132909,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.taggedhook42()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 887314,
-              "status": "skipped"
+              "duration": 10276668361,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "User should launch browser",
-            "match": {
-              "location": "Add.user_should_launch_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 9440,
-              "status": "skipped"
-            },
-            "line": 7,
+            "line": 8,
             "name": "User click add customer link",
             "match": {
               "location": "Add.user_click_add_customer_link()"
@@ -36,37 +109,22 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5689675197,
+              "status": "passed"
             },
-            "line": 8,
-            "name": "User provide valid de",
-            "match": {},
+            "line": 9,
+            "name": "User provide valid det",
+            "match": {
+              "location": "Add.user_provide_valid_det(DataTable)"
+            },
             "rows": [
               {
                 "cells": [
-                  "fname",
-                  "lname",
-                  "gmail",
-                  "address",
-                  "mobile"
-                ]
-              },
-              {
-                "cells": [
-                  "arvi",
-                  "babu",
-                  "test@gmail.com",
-                  "bangalore",
-                  "22222222"
-                ]
-              },
-              {
-                "cells": [
-                  "david",
-                  "raj",
-                  "poi@gmail.com",
-                  "mumbai",
-                  "33333333"
+                  "Ram",
+                  "Kumar",
+                  "abc@gmail.com",
+                  "chennai",
+                  "12345678"
                 ]
               }
             ],
@@ -74,8 +132,8 @@
           },
           {
             "result": {
-              "duration": 7929,
-              "status": "skipped"
+              "duration": 292265856,
+              "status": "passed"
             },
             "line": 12,
             "name": "To verify the customer id is displayed",
@@ -96,7 +154,7 @@
     "description": "  I want to use this template for my feature file",
     "id": "add-customer",
     "keyword": "Feature",
-    "uri": "src/test/resources/Features/twodmap.feature",
+    "uri": "src/test/resources/Features/onedlist.feature",
     "tags": []
   }
 ]
